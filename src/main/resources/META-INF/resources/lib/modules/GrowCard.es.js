@@ -48,10 +48,9 @@ class GrowCard extends React.Component {
               </div>
             </div>
             <div className="autofit-col autofit-col-expand">
-              <div className="autofit-section text-secondary">
-                <h5>{this.props.articleAuthor}</h5>
-                <br />
-                <span>{this.props.articleCreateDate}</span>
+              <div className="autofit-section text-secondary text-14">
+                <strong>{this.props.articleAuthor}</strong>
+                <p>{this.props.articleCreateDate}</p>
               </div>
             </div>
             <div className="autofit-col">

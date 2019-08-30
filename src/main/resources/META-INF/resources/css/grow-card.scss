@@ -17,22 +17,28 @@
 
 .grow-card {
 	border-bottom: 0.6rem solid #fff;
+
 	.grow-card-title {
 		min-height: 3.5rem;
 	}
+
 	.grow-card-cont {
 		font-size: 14px;
 		min-height: 5.25rem;
 	}
+
 	.grow-card-footer {
 		min-height: 6rem;
 	}
+
 	.grow-card-tag {
 		min-height: 3.5rem;
 	}
+
 	.btn {
 		padding: 0.4375rem 0.4375rem;
 	}
+
 	a {
 		color: #09101D;
 	}
@@ -44,14 +50,18 @@
 	h3 {
 		font-size: 1.125rem;
 	}
+
+	.text-14 {
+		font-size: 14px;
+	}
 }
 
 .grow-card {
 	box-shadow: 0 0 0 0;
 
 	@media only screen and (max-width: 756px) {
-        box-shadow: 0 1px 10px -4px rgba(0, 0, 0, 0.6);
-    }
+		box-shadow: 0 1px 10px -4px rgba(0, 0, 0, 0.6);
+	}
 }
 
 .grow-card:hover {
