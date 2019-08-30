@@ -115,13 +115,13 @@ class GrowCard extends React.Component {
                       .toLowerCase()
                   }
                 >
-                  <strong>
+                  <span>
                     <TextTruncate
                       line={2}
                       truncateText="…"
                       text={this.props.articleTitle}
                     />
-                  </strong>
+                  </span>
                 </a>
               </div>
             </div>
