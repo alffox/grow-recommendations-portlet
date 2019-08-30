@@ -50,7 +50,9 @@ class GrowCard extends React.Component {
             <div className="autofit-col autofit-col-expand">
               <div className="autofit-section text-secondary">
                 <span className="grow-author">{this.props.articleAuthor}</span>
-                <p>{this.props.articleCreateDate}</p>
+                <p className="grow-create-date">
+                  {this.props.articleCreateDate}
+                </p>
               </div>
             </div>
             <div className="autofit-col">
