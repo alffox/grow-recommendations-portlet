@@ -37,7 +37,7 @@ class GrowCard extends React.Component {
         }
       >
         <div className="card-body">
-          <div className="autofit-row autofit-padded mb-2">
+          <div className="autofit-row autofit-padded">
             <div className="autofit-col">
               <div className="autofit-section">
                 <img
