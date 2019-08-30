@@ -14,17 +14,18 @@ class GrowCardFooter extends React.Component {
           <div className="autofit-col autofit-col-expand">
             <GrowTagList articleTags={this.props.articleTags} />
           </div>
-
-          <div className="autofit-col">
-            <div className="autofit-section text-secondary">
-              <GrowIcon
-                spritemap={this.props.spritemap}
-                classes="lexicon-icon inline-item inline-item-before"
-                iconName="view"
-              />
-              <span>{this.props.articleReadCount}</span>
+          {this.props.articleReadCount && (
+            <div className="autofit-col">
+              <div className="autofit-section text-secondary">
+                <GrowIcon
+                  spritemap={this.props.spritemap}
+                  classes="lexicon-icon inline-item inline-item-before"
+                  iconName="view"
+                />
+                <span>{this.props.articleReadCount}</span>
+              </div>
             </div>
-          </div>
+          )}
         </div>
         <div
           className={
