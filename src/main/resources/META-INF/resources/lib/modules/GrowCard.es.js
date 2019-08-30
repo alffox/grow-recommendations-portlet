@@ -115,7 +115,7 @@ class GrowCard extends React.Component {
                       .toLowerCase()
                   }
                 >
-                  <span>
+                  <span className="grow-title">
                     <TextTruncate
                       line={2}
                       truncateText="…"
