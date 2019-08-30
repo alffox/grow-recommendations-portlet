@@ -63,6 +63,15 @@
 
 	.grow-title {
 		font-weight: 500;
+		margin-bottom: -23px;
+	}
+
+	.autofit-padded>.autofit-col {
+		padding-bottom: 0px;
+	}
+
+	p {
+		margin-bottom: 16px;
 	}
 
 }
