@@ -33,7 +33,7 @@ class GrowCard extends React.Component {
         className={
           "grow-card card card-" +
           this.props.articleCategory.toLowerCase() +
-          " mr-2 ml-2"
+          " mx-1"
         }
       >
         <div className="card-body">
