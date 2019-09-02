@@ -14,7 +14,7 @@ class GrowTagList extends React.Component {
             .map((tag, index) => {
               return (
                 <span key={index} className="label text-uppercase">
-                  <span className="label-info label-item label-item-expand">
+                  <span className="label-secondary label-item label-item-expand">
                     {tag}
                   </span>
                 </span>
@@ -22,7 +22,7 @@ class GrowTagList extends React.Component {
             })}
           {this.props.articleTags.length > this.props.numOfDisplayed && (
             <span
-              className="label label-lg text-uppercase label-remaining-tags"
+              className="label text-uppercase"
               data-toggle="tooltip"
               data-placement="right"
               title={this.props.articleTags.slice(
@@ -30,7 +30,7 @@ class GrowTagList extends React.Component {
                 this.props.articleTags.length
               )}
             >
-              <span className="label-info label-item label-item-expand">
+              <span className="label-secondary label-item label-item-expand">
                 + {this.props.articleTags.length - this.props.numOfDisplayed}
               </span>
             </span>

@@ -64,13 +64,15 @@
 
 	.label {
 		line-height: 13px;
-		border-color: #B3CDFF;
+		background-color: #6B6C7E;
+		border-color: #6B6C7E;
 	}
 
-	.label-info {
-		color: #B3CDFF;
+	.label-secondary {
+		background-color: #6B6C7E;
+		border-color: #6B6C7E;
+		color: #fff;
 	}
-
 }
 
 .grow-card {
