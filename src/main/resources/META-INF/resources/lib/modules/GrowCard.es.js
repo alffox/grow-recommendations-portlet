@@ -104,7 +104,7 @@ class GrowCard extends React.Component {
 
           <div className="autofit-row autofit-padded">
             <div className="autofit-col autofit-col-expand grow-card-article">
-              <div className="autofit-section grow-card-title">
+              <div className="autofit-section">
                 <a
                   href={
                     this.props.portalUrl +
@@ -117,13 +117,13 @@ class GrowCard extends React.Component {
                       .toLowerCase()
                   }
                 >
-                  <span className="grow-title">
+                  <h3 className="grow-title">
                     <TextTruncate
                       line={2}
                       truncateText="…"
                       text={this.props.articleTitle}
                     />
-                  </span>
+                  </h3>
                 </a>
               </div>
               <div className="autofit-section">
