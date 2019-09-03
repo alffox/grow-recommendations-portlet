@@ -11,10 +11,6 @@
 	fill: #0B5FFF !important;
 }
 
-.label-remaining-tags {
-	border-style: none;
-}
-
 .grow-card {
 	border-bottom: 0.6rem solid #fff;
 
@@ -60,6 +56,10 @@
 
 	.label {
 		line-height: 13px;
+	}
+
+	.label-remaining-tags {
+		border-style: none;
 	}
 
 }
