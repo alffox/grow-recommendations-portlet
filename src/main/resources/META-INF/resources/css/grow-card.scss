@@ -25,6 +25,11 @@
 
 .grow-card .card-body {
 	padding: 1rem 1rem 0.65rem 1rem;
+	box-shadow: 0 0 0 0;
+
+	@media only screen and (max-width: 756px) {
+		box-shadow: 0 1px 10px -4px rgba(0, 0, 0, 0.6);
+	}
 
 	.grow-author {
 		font-style: normal;
@@ -60,15 +65,6 @@
 
 	.label-remaining-tags {
 		border-style: none;
-	}
-
-}
-
-.grow-card {
-	box-shadow: 0 0 0 0;
-
-	@media only screen and (max-width: 756px) {
-		box-shadow: 0 1px 10px -4px rgba(0, 0, 0, 0.6);
 	}
 
 }
