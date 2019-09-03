@@ -102,8 +102,8 @@ class GrowCard extends React.Component {
             </div>
           </div>
 
-          <div className="autofit-row autofit-padded grow-title">
-            <div className="autofit-col autofit-col-expand">
+          <div className="autofit-row autofit-padded">
+            <div className="autofit-col autofit-col-expand grow-card-article">
               <div className="autofit-section grow-card-title">
                 <a
                   href={
@@ -126,13 +126,8 @@ class GrowCard extends React.Component {
                   </span>
                 </a>
               </div>
-            </div>
-          </div>
-
-          <div className="autofit-row autofit-padded">
-            <div className="autofit-col autofit-col-expand">
               <div className="autofit-section">
-                <div className="text-secondary grow-card-cont">
+                <div className="text-secondary grow-card-content">
                   <TextTruncate
                     line={3}
                     truncateText="…"

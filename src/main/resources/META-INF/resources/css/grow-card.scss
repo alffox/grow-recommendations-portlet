@@ -18,10 +18,6 @@
 .grow-card {
 	border-bottom: 0.6rem solid #fff;
 
-	.grow-card-cont {
-		font-size: 14px;
-	}
-
 	.btn {
 		padding: 0.4375rem 0.4375rem;
 	}
@@ -48,19 +44,27 @@
 		font-size: 14px;
 	}
 
+	.grow-card-article {
+		height: 190px;
+		max-height: 190px;
+	}
+
 	.grow-title {
 		font-size: 18px;
 		font-weight: 500;
-		// margin-bottom: -23px;
+	}
+
+	.grow-card-content {
+		font-size: 14px;
 	}
 
 	.autofit-padded>.autofit-col {
 		padding-bottom: 0px;
 	}
 
-	p {
-		margin-bottom: 16px;
-	}
+	// p {
+	// 	margin-bottom: 16px;
+	// }
 
 	.label {
 		line-height: 13px;
@@ -75,8 +79,8 @@
 		box-shadow: 0 1px 10px -4px rgba(0, 0, 0, 0.6);
 	}
 
-	height: 304px;
-	max-height: 304px;
+	// height: 304px;
+	// max-height: 304px;
 }
 
 .grow-card:hover {
