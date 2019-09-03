@@ -14,6 +14,10 @@
 .grow-card {
 	border-bottom: 0.6rem solid #fff;
 
+	.grow-card-content {
+		font-size: 14px;
+	}
+
 	.btn {
 		padding: 0.4375rem 0.4375rem;
 	}
@@ -25,10 +29,6 @@
 
 .grow-card .card-body {
 	padding: 1rem 1rem 0.65rem 1rem;
-
-	.autofit-padded>.autofit-col {
-		padding-bottom: 0px;
-	}
 
 	.grow-author {
 		font-style: normal;
@@ -50,8 +50,8 @@
 		font-weight: 500;
 	}
 
-	.grow-card-content {
-		font-size: 14px;
+	.autofit-padded>.autofit-col {
+		padding-bottom: 0px;
 	}
 
 	.label {
