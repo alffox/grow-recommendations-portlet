@@ -17,7 +17,19 @@ class GrowTagList extends React.Component {
                   key={index}
                   className="label label-secondary text-uppercase"
                 >
-                  <span className="label-item label-item-expand">{tag}</span>
+                  {tag.length <= 10 && (
+                    <span className="label-item label-item-expand">{tag}</span>
+                  )}
+                  {tag.length > 10 && (
+                    <span
+                      className="label-item label-item-expand"
+                      data-toggle="tooltip"
+                      data-placement="right"
+                      title={tag}
+                    >
+                      {tag.substring(0, 10) + "..."}
+                    </span>
+                  )}
                 </span>
               );
             })}
